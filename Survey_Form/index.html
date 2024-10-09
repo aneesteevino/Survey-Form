@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>freeCodeCamp Survey Form</h1>
+    <i><h3>Thank you for taking the time to help us improve the platform</h3></i>
+    <div class="main_container">
+        <form action="">
+            <i><p style="font-size: large ; color: rgb(237, 233, 233); margin-top: 8px;">Name</p></i>
+            <input type="text" placeholder="Enter your name">
+
+            <i><p style="font-size: large ; color: rgb(237, 233, 233); margin-top: 8px;">Email</p></i>
+            <input type="email" placeholder="Enter your Email">
+
+            <i><p style="font-size: large ; color: rgb(237, 233, 233); margin-top: 8px;">Age(optional)</p></i>
+            <input type="number" placeholder="Enter your Age">
+
+
+            <i><p style="font-size: large ; color: rgb(237, 233, 233); margin-top: 8px;">Which option best describes your current role?</p></i>
+            <select name="role" id="role" >
+                <option value="" >Select your role</option>
+                <option value="student">Student</option>
+                <option value="junior_developer">Junior Developer</option>
+                <option value="mid_level_developer">Mid-Level Developer</option>
+                <option value="senior_developer">Senior Developer</option>
+                <option value="manager">Manager</option>
+                <option value="freelancer">Freelancer</option>
+                <option value="other">Other</option>
+            </select>
+
+            <i><p style="font-size: large ; color: rgb(237, 233, 233); margin-top: 8px;">Would you recommend freeCodeCamp to a friend?</p></i>
+            
+              <div class="custom-radio-group">
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom-radio" value="option1" />
+                  <span class="custom-radio-checkmark"></span>
+                  Definitely
+                </label>
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom-radio" value="option2" />
+                  <span class="custom-radio-checkmark"></span>
+                  Maybe
+                </label>
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom-radio" value="option3" />
+                  <span class="custom-radio-checkmark"></span>
+                  Not sure
+                </label>
+              </div>
+
+              <i><p style="font-size: large ; color: rgb(237, 233, 233); margin-top: 8px;">What is your favorite feature of freeCodeCamp?</p></i>
+              <select name="role" id="role" >
+                  <option value="" >Select an option</option>
+                  <option value="junior_developer">Challenges</option>
+                  <option value="mid_level_developer">Projects</option>
+                  <option value="senior_developer">Community</option>
+                  <option value="manager">OpenSource</option>
+                  <option value="other">Other</option>
+              </select>
+        </form>
+
+        
+       
+        <i><p style="font-size: large ; color: rgb(237, 233, 233); margin-top: 8px;">What would you like to see improved? (Check all that apply)</p></i>
+        <label class="container">Front-end Projects
+            <input type="checkbox" checked="checked">
+            <div class="checkmark"></div>
+        </label>
+        <label class="container">Back-end Projects
+            <input type="checkbox" checked="checked">
+            <div class="checkmark"></div>
+        </label>
+        <label class="container">Data Visualization
+            <input type="checkbox" checked="checked">
+            <div class="checkmark"></div>
+        </label>
+        <label class="container" style="margin-right: 52%;">Challenges
+            <input type="checkbox" checked="checked">
+            <div class="checkmark"></div>
+        </label>
+        <label class="container">Gitter help rooms
+            <input type="checkbox" checked="checked">
+            <div class="checkmark"></div>
+        </label>
+
+
+        <i><p style="font-size: large ; color: rgb(237, 233, 233); margin-top: 8px;">Any comments or suggestions?</p></i>
+        <textarea name="" id="comments">Any Comments ?</textarea>
+
+        <button id="submit">Submit</button>
+
+
+    </div>
+
+    
+</body>
+</html>
