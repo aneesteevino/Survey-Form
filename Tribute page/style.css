@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.section_1{
+    height:100vh;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url("http://wallpapercave.com/wp/wp1877308.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    position: fixed;
+    height: 50px;
+    width: 80%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 15px;
+    margin-left: 100px;
+    border-radius: 25px;
+    background-color: #5f5c5c60;
+    border: none;
+}
+
+.nav_content{
+    height: 75%;
+    width: 110px;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(132, 132, 132, 0.288);
+    
+    border: none;
+    
+}
+
+
+.name{
+    height: 70%;
+    width: 65%;
+    border: 1px solid white;
+    margin: 110px;
+    margin-left: 380px;
+    background: rgba(132, 132, 132, 0.288);
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.section2{
+    height: 70vh;
+    width: 100%;
+    /* border: 5px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(to right, black, white);
+
+}
+
+
+
+.bio-container {
+    background-color: #ffffff;
+    width: 68%;
+    /* padding: 20px; */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-top: 35px;
+    /* border: 1px solid #000; */
+    height: 80%;
+    /* background: rgba(132, 132, 132, 0.288); */
+    background: linear-gradient(to left, black ,rgba(255, 255, 255, 0.169));
+
+
+}
+
+.bio-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000;
+    /* padding-bottom: 10px; */
+    text-align: center;
+}
+
+.bio-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+
+
+
